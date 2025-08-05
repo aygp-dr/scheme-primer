@@ -1,6 +1,6 @@
 ;; Scheme Primer
 
-(define primer-version-string "0.00000001")
+(define primer-version-string "0.1.0")
 
 (define print-greeting
   (lambda ()
@@ -20,7 +20,7 @@
     (display "The Scheme Primer is itself written in Scheme.  The Scheme Primer will teach you how to implement enough Scheme to run the Primer in your own Scheme implementation (\"Meta-circular Primer\"/\"Primer-ception\").")
     (newline)
     (newline)
-    (display "The Scheme Primer also allows you to jump to specific lessons or pratice exercises.")
+    (display "The Scheme Primer also allows you to jump to specific lessons or practice exercises.")
     (newline)
     (newline)))
 
